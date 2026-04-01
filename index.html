@@ -15,7 +15,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <a href="#" class="logo">
-        <span class="logo-icon">&#127797;</span>
+        <img src="img/logga.png" alt="Vilda Väster logga" class="logo-img">
         <span class="logo-text">Vilda Väster</span>
       </a>
       <button class="menu-toggle" aria-label="Öppna meny" id="menuToggle">
@@ -23,10 +23,12 @@
       </button>
       <nav class="main-nav" id="mainNav">
         <a href="#hem">Hem</a>
-        <a href="#forskolan">Förskolan</a>
-        <a href="#veckoschema">Veckoschema</a>
+        <a href="#forskolan">Om oss</a>
+        <a href="#pedagogik">Pedagogik</a>
+        <a href="#veckoschema">Schema</a>
         <a href="#miljo">Miljö</a>
         <a href="#galleri">Galleri</a>
+        <a href="#koanmalan">Kö</a>
         <a href="#kontakt">Kontakt</a>
       </nav>
     </div>
@@ -34,16 +36,12 @@
 
   <!-- HERO -->
   <section class="hero" id="hem">
-    <div class="hero-bg-shapes">
-      <div class="cactus cactus-1">&#127797;</div>
-      <div class="cactus cactus-2">&#127797;</div>
-      <div class="star star-1">&#11088;</div>
-      <div class="star star-2">&#11088;</div>
-      <div class="star star-3">&#127775;</div>
-    </div>
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="img/firstpage.mp4" type="video/mp4">
+    </video>
     <div class="container hero-content">
       <h1>Välkommen till<br><span class="highlight">Vilda Väster</span></h1>
-      <p class="hero-sub">Ett föräldrakooperativ i hjärtat av Malmö sedan 1992.<br>Här växer barn med <strong>natur, hälsa och gemenskap</strong>.</p>
+      <p class="hero-sub">Våra barn är det bästa som finns</p>
       <div class="hero-buttons">
         <a href="#forskolan" class="btn btn-primary">Upptäck förskolan</a>
         <a href="#kontakt" class="btn btn-outline">Kontakta oss</a>
@@ -59,28 +57,64 @@
   <!-- OM FÖRSKOLAN -->
   <section class="section section-about" id="forskolan">
     <div class="container">
-      <div class="section-badge">&#129312; Om oss</div>
-      <h2>En förskola där äventyr väntar</h2>
+      <div class="section-badge">Om oss</div>
+      <h2>Förskolan Vilda Väster</h2>
+      <div class="about-intro-row">
+        <img src="img/logga.png" alt="Vilda Väster logga" class="about-logo">
+        <div class="about-intro">
+          <p>Förskolan Vilda Väster är en fristående förskola som drivs som en ekonomisk förening. Förskolan är ett föräldrakooperativ som har funnits sedan 1993.</p>
+          <p>Förskolan ligger i stadsdelen Västra Innerstaden som är ett område med både höghus och villor. Vi har stora, ljusa lokaler på 307 kvm. Vi har även en liten utegård som är en del av Fridhemstorget. Med tanke på förskolans läge använder vi närliggande parker runt omkring förskolan samt Ribersborgsstranden som bara är fem minuters promenad bort.</p>
+          <p>Vi arbetar efter de riktlinjer och mål som finns i skollagen och Lp 98, den nya reviderade läroplanen. Vi följer upp och utvärderar arbetet kontinuerligt under terminerna och har en gemensam utvärdering efter varje termin.</p>
+          <p>På förskolan finns tre tillsvidaretjänster och en deltidstjänst varav två stycken är förskollärare och en är barnskötare. Vi har även en kock/lokalvårdare på förskolan. En av förskollärarna innehar även rollen som förskolechef.</p>
+        </div>
+      </div>
       <div class="about-grid">
         <div class="about-card">
-          <div class="about-card-icon">&#127793;</div>
           <h3>Hälsa & Natur</h3>
           <p>Vår profil "Hälsa och Natur – i ur och skur" genomsyrar allt vi gör. Vi vill att barnen ska förstå att natur och människor hör ihop.</p>
         </div>
         <div class="about-card">
-          <div class="about-card-icon">&#128101;</div>
           <h3>Föräldrakooperativ</h3>
-          <p>Vi drivs som en ekonomisk förening utan vinstintresse, grundad 1992. Tillsammans skapar vi en trygg och engagerad förskola.</p>
+          <p>Vi drivs som en ekonomisk förening utan vinstintresse, grundad 1993. Tillsammans skapar vi en trygg och engagerad förskola.</p>
         </div>
         <div class="about-card">
-          <div class="about-card-icon">&#127912;</div>
           <h3>Allsidig pedagogik</h3>
           <p>Med förskolans läroplan som grund arbetar vi i mindre grupper för att ta tillvara varje barns intressen och förmågor.</p>
         </div>
         <div class="about-card">
-          <div class="about-card-icon">&#127758;</div>
           <h3>Västra Innerstaden</h3>
           <p>Vi finns på Fridhemstorget i Malmö, nära parker, strand och stadsliv – perfekt för våra utflykter och upptäckter.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PEDAGOGIK -->
+  <section class="section section-pedagogik" id="pedagogik">
+    <div class="container">
+      <div class="section-badge">Pedagogik</div>
+      <h2>Grunden för ett livslångt lärande</h2>
+      <div class="pedagogik-intro">
+        <blockquote>"Utbildningen i förskolan ska lägga grunden för ett livslångt lärande. Den ska vara rolig, trygg och lärorik för alla barn. Utbildningen ska utgå från en helhetssyn på barn och barnens behov, där omsorg, utveckling och lärande bildar en helhet."<cite>— Läroplan för förskolan Lpfö 18</cite></blockquote>
+        <p>Vi på förskolan Vilda Väster erbjuder en allsidig pedagogisk verksamhet med förskolans läroplan som grund för det livslånga lärandet. Vi delar in barnen i mindre grupper för att lättare kunna ta till vara varje barns intressen och förmågor. Varje barn ska ha rätt att utvecklas i en harmonisk och förberedd miljö efter egen mognad.</p>
+        <p>Förskolan arbetar aktivt med frågor som rör natur och hälsa och har skapat sin profil – Hälsa och Natur i ur och skur – kring dessa teman. Denna inriktning syftar till att främja ett helhetstänk hos barnen och en förståelse för att natur och människor är del av samma system. Vi besöker ofta havet och stranden som bara är 5 minuters promenad från förskolan. Vidare lägger vi stor vikt vid fysisk aktivitet och grovmotorik – bland annat genom utflykter till skridskobana, simhall och sporthall.</p>
+      </div>
+      <div class="mal-grid">
+        <div class="mal-card">
+          <h3>Målsättningar</h3>
+          <ul>
+            <li>Vi vill att barnen ska skapa och kommunicera med hjälp av olika uttrycksformer såsom bild, sång och musik, drama, rytmik, dans och rörelse.</li>
+            <li>Genom förskolans miljö vill vi uppmuntra barnens nyfikenhet, företagsamhet och intressen.</li>
+            <li>Vi strävar efter att varje barn ska utveckla sin förmåga att ta hänsyn till och leva sig in i andra människors situation.</li>
+            <li>Genom reellt inflytande vill vi att barnen ska känna att vi vuxna lyssnar och tror på dem och deras förmågor.</li>
+            <li>Vi strävar efter att varje enskilt barn utvecklar sin förmåga att uttrycka sina tankar och åsikter och ta ansvar för sina egna handlingar.</li>
+          </ul>
+        </div>
+        <div class="mal-card">
+          <h3>Värdegrund</h3>
+          <p>Vi tar med bestämdhet avstånd från alla tendenser till trakasserier och kränkande beteende. Verksamheten på förskolan ska präglas av att alla barn har lika rättigheter oavsett kön, etnisk tillhörighet, religion, sexuell läggning eller funktionshinder.</p>
+          <p><strong>Vår vision är att alla barn ska lyckas!</strong></p>
+          <p>Våra värderingar går i linje med Lpfö 98, FN:s barnkonvention och Malmö Stads policy. Vi har handlingsplaner för kriser, om ett barn skulle försvinna eller utsättas för övergrepp, samt en likabehandlingsplan.</p>
         </div>
       </div>
     </div>
@@ -89,34 +123,46 @@
   <!-- VECKOSCHEMA -->
   <section class="section section-schedule" id="veckoschema">
     <div class="container">
-      <div class="section-badge">&#128197; Veckoschema</div>
+      <div class="section-badge">Schema</div>
       <h2>Så ser en vecka ut hos oss</h2>
       <div class="schedule-grid">
         <div class="schedule-card" style="--accent: #e8594f;">
           <div class="schedule-day">Måndag</div>
-          <div class="schedule-icon">&#127925;</div>
-          <p>Kompisklubben för de äldsta. Sång, dans, musik och rytmik för övriga barn.</p>
+          <p>Kompisklubben för de äldsta barnen. Övriga barn får möjlighet till sång, dans, musik och rytmik.</p>
         </div>
         <div class="schedule-card" style="--accent: #f5a623;">
           <div class="schedule-day">Tisdag</div>
-          <div class="schedule-icon">&#127912;</div>
-          <p>Projektgrupper med olika teman – utforskning och skapande.</p>
+          <p>Barnen arbetar i projektgrupper med olika teman – utforskning och skapande.</p>
         </div>
         <div class="schedule-card" style="--accent: #7ec850;">
           <div class="schedule-day">Onsdag</div>
-          <div class="schedule-icon">&#129336;</div>
-          <p>Miniröris och gymnastik anpassat efter ålder – rörelse och glädje!</p>
+          <p>Miniröris och gymnastik beroende på ålder – rörelse och glädje!</p>
         </div>
         <div class="schedule-card" style="--accent: #4a9fd6;">
           <div class="schedule-day">Torsdag</div>
-          <div class="schedule-icon">&#128300;</div>
-          <p>Projektgrupper fortsätter – fördjupning och nyfikenhet.</p>
+          <p>Barnen arbetar i projektgrupper med olika teman – fördjupning och nyfikenhet.</p>
         </div>
         <div class="schedule-card" style="--accent: #a66bbf;">
           <div class="schedule-day">Fredag</div>
-          <div class="schedule-icon">&#127958;</div>
-          <p>Utflykter till stranden, parker och lekplatser i närområdet.</p>
+          <p>Utflykter till stranden eller lekplatser i vårt närområde. Vi har även heldagsutflykter med matsäck och teaterbesök.</p>
         </div>
+      </div>
+
+      <div class="dagliga-rutiner">
+        <h3>Dagliga rutiner</h3>
+        <blockquote>"Förskolan ska erbjuda barnen en, i förhållande till deras ålder och vistelsetid, väl avvägd dagsrytm och miljö."<cite>— Läroplan för förskolan, Lpfö 98</cite></blockquote>
+        <div class="timetable">
+          <div class="timetable-row"><span class="timetable-time">08:00</span><span class="timetable-activity">Frukost</span></div>
+          <div class="timetable-row"><span class="timetable-time">08:45</span><span class="timetable-activity">Varierande aktiviteter inomhus/utomhus</span></div>
+          <div class="timetable-row"><span class="timetable-time">09:45</span><span class="timetable-activity">Fruktstund</span></div>
+          <div class="timetable-row"><span class="timetable-time">10:00</span><span class="timetable-activity">Pedagogiska aktiviteter inomhus i små projektgrupper</span></div>
+          <div class="timetable-row"><span class="timetable-time">11:30</span><span class="timetable-activity">Lunch</span></div>
+          <div class="timetable-row"><span class="timetable-time">12:30</span><span class="timetable-activity">Små barn har möjlighet att sova, de större barnen har högläsning</span></div>
+          <div class="timetable-row"><span class="timetable-time">13:15</span><span class="timetable-activity">Utevistelse för de stora barnen, de små barnen vaknar upp till mellanmålet</span></div>
+          <div class="timetable-row"><span class="timetable-time">14:30</span><span class="timetable-activity">Mellanmål</span></div>
+          <div class="timetable-row"><span class="timetable-time">15:00</span><span class="timetable-activity">Fri lek</span></div>
+        </div>
+        <p class="opening-hours">Förskolan följer Malmö stads öppettider. Just nu är våra öppettider <strong>7.30–17.00</strong>.</p>
       </div>
     </div>
   </section>
@@ -124,50 +170,43 @@
   <!-- MILJÖ / RUM -->
   <section class="section section-rooms" id="miljo">
     <div class="container">
-      <div class="section-badge">&#127968; Våra rum</div>
+      <div class="section-badge">Våra rum</div>
       <h2>En inspirerande miljö för alla sinnen</h2>
       <div class="rooms-grid">
         <div class="room-card">
-          <div class="room-img-placeholder">
-            <span>&#127858;</span>
-          </div>
-          <h3>Matsalen</h3>
-          <p>Näringsrik, hemlagad och ekologisk mat serveras här varje dag.</p>
-        </div>
-        <div class="room-card">
-          <div class="room-img-placeholder">
-            <span>&#128218;</span>
-          </div>
-          <h3>Snusa &amp; Dåsan</h3>
-          <p>Ett mysigt rum för avkoppling, sagor och lugna stunder.</p>
-        </div>
-        <div class="room-card">
-          <div class="room-img-placeholder">
-            <span>&#127922;</span>
-          </div>
-          <h3>Lekan</h3>
-          <p>Vårt största rum – här får fantasin flöda i fri lek.</p>
-        </div>
-        <div class="room-card">
-          <div class="room-img-placeholder">
-            <span>&#127912;</span>
-          </div>
-          <h3>Ateljén</h3>
+          <div class="room-img-placeholder"></div>
+          <h3>Atelje</h3>
           <p>Kreativt skapande med färg, lera, papper och mycket mer.</p>
         </div>
         <div class="room-card">
-          <div class="room-img-placeholder">
-            <span>&#128295;</span>
-          </div>
-          <h3>Byggis</h3>
-          <p>Lilla och Stora Byggis – här bygger och snickrar vi.</p>
+          <div class="room-img-placeholder"></div>
+          <h3>Nemorummet</h3>
+          <p>Ett mysigt rum för avkoppling, sagor och lugna stunder.</p>
         </div>
         <div class="room-card">
-          <div class="room-img-placeholder">
-            <span>&#128171;</span>
-          </div>
-          <h3>Temarummet</h3>
-          <p>Ett rum som förändras med våra pågående projekt och teman.</p>
+          <div class="room-img-placeholder"></div>
+          <h3>Solrummet</h3>
+          <p>Vårt stora, ljusa rum – här får fantasin flöda i fri lek.</p>
+        </div>
+        <div class="room-card">
+          <div class="room-img-placeholder"></div>
+          <h3>Lilla byggis</h3>
+          <p>Här bygger och konstruerar de mindre barnen.</p>
+        </div>
+        <div class="room-card">
+          <div class="room-img-placeholder"></div>
+          <h3>Stora byggis</h3>
+          <p>Stort utrymme för bygglek, snickeri och skapande.</p>
+        </div>
+        <div class="room-card">
+          <div class="room-img-placeholder"></div>
+          <h3>Samlingsrummet</h3>
+          <p>Här samlas vi för gemensamma aktiviteter och stunder.</p>
+        </div>
+        <div class="room-card">
+          <div class="room-img-placeholder"></div>
+          <h3>Köket</h3>
+          <p>Här lagas näringsrik, hemlagad och ekologisk mat varje dag.</p>
         </div>
       </div>
     </div>
@@ -176,37 +215,32 @@
   <!-- GALLERI -->
   <section class="section section-gallery" id="galleri">
     <div class="container">
-      <div class="section-badge">&#128247; Galleri</div>
+      <div class="section-badge">Galleri</div>
       <h2>Bilder från vår vardag</h2>
       <p class="section-desc">Här kan du se hur det ser ut hos oss! Byt ut bilderna nedan mot era egna foton.</p>
       <div class="gallery-grid">
         <div class="gallery-item gallery-item-wide">
           <div class="gallery-placeholder">
-            <span>&#127797;</span>
             <small>Bild 1 – Ersätt med ert foto</small>
           </div>
         </div>
         <div class="gallery-item">
           <div class="gallery-placeholder">
-            <span>&#127774;</span>
             <small>Bild 2</small>
           </div>
         </div>
         <div class="gallery-item">
           <div class="gallery-placeholder">
-            <span>&#127800;</span>
             <small>Bild 3</small>
           </div>
         </div>
         <div class="gallery-item">
           <div class="gallery-placeholder">
-            <span>&#127803;</span>
             <small>Bild 4</small>
           </div>
         </div>
         <div class="gallery-item gallery-item-wide">
           <div class="gallery-placeholder">
-            <span>&#127796;</span>
             <small>Bild 5 – Ersätt med ert foto</small>
           </div>
         </div>
@@ -214,40 +248,74 @@
     </div>
   </section>
 
+  <!-- FÖRÄLDRAKOOPERATIV -->
+  <section class="section section-koop" id="koop">
+    <div class="container">
+      <div class="section-badge">Föräldrakooperativ</div>
+      <h2>Vad innebär en föräldrakooperativ förskola?</h2>
+      <div class="koop-grid">
+        <div class="koop-text">
+          <p>Förskolan Vilda Väster bedrivs som en föräldrakooperativ förskola. Det innebär att förskolan bedrivs i privat regi som en ekonomisk förening, enligt kommunens riktlinjer. Föreningen består av vårdnadshavare till de barn som går på förskolan.</p>
+          <p>Beslutande organ är föreningens styrelse, som också är huvudman för förskolan, och utgörs av sex vårdnadshavare. Personalen är anställd av den ekonomiska föreningen. På det här sättet får föräldrarna insyn och engageras i verksamheten.</p>
+          <p>Föräldrakooperativet Vilda Väster är politiskt och religiöst obundet. Vi är tillsammans med många andra förskolor, fritids och friskolor medlemmar i arbetsgivarföreningen Fremia.</p>
+        </div>
+        <div class="koop-text">
+          <h3>Engagemang</h3>
+          <p>Att välja en föräldrakooperativ förskola innebär att du förväntas bidra på olika sätt i föreningen. Det finns ansvarsgrupper för löpande uppgifter under året, samt ett schema för gårdsstädning.</p>
+          <p>Två dagar om året träffas alla föräldrar för att förbättra miljön på förskolan – ett ypperligt tillfälle att lära känna andra föräldrar. Dessutom träffas alla föräldrar en gång per termin: på våren vid årsmötet och på hösten vid den extra årsstämman.</p>
+          <p>Utan föräldrarnas engagemang kan förskolan inte bedrivas. Det är helt avgörande att du som vårdnadshavare är beredd att ta ett lite större ansvar under den tid ditt barn går här.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- KÖANMÄLAN CTA -->
-  <section class="section section-cta">
+  <section class="section section-cta" id="koanmalan">
+    <video class="cta-video" autoplay muted loop playsinline>
+      <source src="img/barnlera.mp4" type="video/mp4">
+    </video>
+    <div class="cta-wave-top">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path d="M0,64 C360,120 720,0 1080,64 C1260,96 1380,80 1440,64 L1440,0 L0,0 Z" fill="#fff9f0"/>
+      </svg>
+    </div>
     <div class="container cta-inner">
       <h2>Vill du att ditt barn ska gå hos oss?</h2>
-      <p>Vi tar emot barn från 1 års ålder. Ställ ert barn i kö redan idag!</p>
-      <a href="https://www.vildavaster.se/Koanmalan.aspx" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Köanmälan</a>
+      <div class="koanmalan-info">
+        <p>Om du är intresserad av en plats ber vi dig först läsa igenom vad en föräldrakooperativ förskola innebär. När du tackar ja till en plats på Vilda Väster betyder det att du är beredd att ta ett lite större ansvar och engagera sig i förskolan.</p>
+        <p>Intagning av nya barn sker vanligtvis en gång per år, i <strong>augusti</strong>. Intagning görs baserat på kötid och vi tillämpar syskonförtur. Vi tillämpar samma avgifter som gäller för den kommunala förskolan – <strong>maxtaxa</strong> gäller även hos oss.</p>
+        <p>Förskolan erbjuder omsorg under den tid som vårdnadshavare förvärvsarbetar eller studerar. Öppettider: <strong>7.30–17.00</strong>.</p>
+      </div>
+      <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=bLHXIxMgCkKBeKhSgH_dkAthzj7QZcdPs1ysHnBAUk1UQVhKMkpTWDcySkhENjVPTUxSM0hLRTFMQyQlQCN0PWcu" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Köanmälan</a>
+    </div>
+    <div class="cta-wave-bottom">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path d="M0,64 C360,120 720,0 1080,64 C1260,96 1380,80 1440,64 L1440,120 L0,120 Z" fill="#fff9f0"/>
+      </svg>
     </div>
   </section>
 
   <!-- KONTAKT -->
   <section class="section section-contact" id="kontakt">
     <div class="container">
-      <div class="section-badge">&#128140; Kontakt</div>
+      <div class="section-badge">Kontakt</div>
       <h2>Hör av dig till oss</h2>
       <div class="contact-grid">
         <div class="contact-card">
-          <div class="contact-icon">&#128205;</div>
-          <h3>Adress</h3>
-          <p>Fridhemstorget<br>217 53 Malmö</p>
-        </div>
-        <div class="contact-card">
-          <div class="contact-icon">&#128222;</div>
           <h3>Telefon</h3>
           <p><a href="tel:040982415">040-98 24 15</a></p>
         </div>
         <div class="contact-card">
-          <div class="contact-icon">&#9993;</div>
           <h3>E-post</h3>
           <p><a href="mailto:info@vildavaster.se">info@vildavaster.se</a></p>
         </div>
         <div class="contact-card">
-          <div class="contact-icon">&#128100;</div>
           <h3>Förskolechef</h3>
           <p>Maria Nilegård</p>
+        </div>
+        <div class="contact-card">
+          <h3>Org. nummer</h3>
+          <p>716439-5746</p>
         </div>
       </div>
       <div class="map-container">
@@ -264,20 +332,22 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <span class="logo-icon">&#127797;</span>
         <span class="logo-text">Vilda Väster</span>
-        <p>Föräldrakooperativ förskola sedan 1992</p>
+        <p>Föräldrakooperativ förskola sedan 1993</p>
       </div>
       <div class="footer-links">
         <a href="#hem">Hem</a>
-        <a href="#forskolan">Förskolan</a>
-        <a href="#veckoschema">Veckoschema</a>
+        <a href="#forskolan">Om oss</a>
+        <a href="#pedagogik">Pedagogik</a>
+        <a href="#veckoschema">Schema</a>
         <a href="#miljo">Miljö</a>
         <a href="#galleri">Galleri</a>
+        <a href="#koop">Föräldrakooperativ</a>
+        <a href="#koanmalan">Kö</a>
         <a href="#kontakt">Kontakt</a>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2026 Förskolan Vilda Väster, Ek. Förening. Alla rättigheter förbehållna.</p>
+        <p>&copy; 2026 Förskolan Vilda Väster, Ek. Förening. Org. nr 716439-5746. Alla rättigheter förbehållna.</p>
         <a href="https://www.vildavaster.se/personuppgiftspolicy.pdf" target="_blank" rel="noopener">Personuppgiftspolicy</a>
       </div>
     </div>
