@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vilda Väster - Förskola i Malmö</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">&#127797;</span>
+        <span class="logo-text">Vilda Väster</span>
+      </a>
+      <button class="menu-toggle" aria-label="Öppna meny" id="menuToggle">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="mainNav">
+        <a href="#hem">Hem</a>
+        <a href="#forskolan">Förskolan</a>
+        <a href="#veckoschema">Veckoschema</a>
+        <a href="#miljo">Miljö</a>
+        <a href="#galleri">Galleri</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hem">
+    <div class="hero-bg-shapes">
+      <div class="cactus cactus-1">&#127797;</div>
+      <div class="cactus cactus-2">&#127797;</div>
+      <div class="star star-1">&#11088;</div>
+      <div class="star star-2">&#11088;</div>
+      <div class="star star-3">&#127775;</div>
+    </div>
+    <div class="container hero-content">
+      <h1>Välkommen till<br><span class="highlight">Vilda Väster</span></h1>
+      <p class="hero-sub">Ett föräldrakooperativ i hjärtat av Malmö sedan 1992.<br>Här växer barn med <strong>natur, hälsa och gemenskap</strong>.</p>
+      <div class="hero-buttons">
+        <a href="#forskolan" class="btn btn-primary">Upptäck förskolan</a>
+        <a href="#kontakt" class="btn btn-outline">Kontakta oss</a>
+      </div>
+    </div>
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path d="M0,64 C360,120 720,0 1080,64 C1260,96 1380,80 1440,64 L1440,120 L0,120 Z" fill="#fff9f0"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- OM FÖRSKOLAN -->
+  <section class="section section-about" id="forskolan">
+    <div class="container">
+      <div class="section-badge">&#129312; Om oss</div>
+      <h2>En förskola där äventyr väntar</h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-card-icon">&#127793;</div>
+          <h3>Hälsa & Natur</h3>
+          <p>Vår profil "Hälsa och Natur – i ur och skur" genomsyrar allt vi gör. Vi vill att barnen ska förstå att natur och människor hör ihop.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon">&#128101;</div>
+          <h3>Föräldrakooperativ</h3>
+          <p>Vi drivs som en ekonomisk förening utan vinstintresse, grundad 1992. Tillsammans skapar vi en trygg och engagerad förskola.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon">&#127912;</div>
+          <h3>Allsidig pedagogik</h3>
+          <p>Med förskolans läroplan som grund arbetar vi i mindre grupper för att ta tillvara varje barns intressen och förmågor.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon">&#127758;</div>
+          <h3>Västra Innerstaden</h3>
+          <p>Vi finns på Fridhemstorget i Malmö, nära parker, strand och stadsliv – perfekt för våra utflykter och upptäckter.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VECKOSCHEMA -->
+  <section class="section section-schedule" id="veckoschema">
+    <div class="container">
+      <div class="section-badge">&#128197; Veckoschema</div>
+      <h2>Så ser en vecka ut hos oss</h2>
+      <div class="schedule-grid">
+        <div class="schedule-card" style="--accent: #e8594f;">
+          <div class="schedule-day">Måndag</div>
+          <div class="schedule-icon">&#127925;</div>
+          <p>Kompisklubben för de äldsta. Sång, dans, musik och rytmik för övriga barn.</p>
+        </div>
+        <div class="schedule-card" style="--accent: #f5a623;">
+          <div class="schedule-day">Tisdag</div>
+          <div class="schedule-icon">&#127912;</div>
+          <p>Projektgrupper med olika teman – utforskning och skapande.</p>
+        </div>
+        <div class="schedule-card" style="--accent: #7ec850;">
+          <div class="schedule-day">Onsdag</div>
+          <div class="schedule-icon">&#129336;</div>
+          <p>Miniröris och gymnastik anpassat efter ålder – rörelse och glädje!</p>
+        </div>
+        <div class="schedule-card" style="--accent: #4a9fd6;">
+          <div class="schedule-day">Torsdag</div>
+          <div class="schedule-icon">&#128300;</div>
+          <p>Projektgrupper fortsätter – fördjupning och nyfikenhet.</p>
+        </div>
+        <div class="schedule-card" style="--accent: #a66bbf;">
+          <div class="schedule-day">Fredag</div>
+          <div class="schedule-icon">&#127958;</div>
+          <p>Utflykter till stranden, parker och lekplatser i närområdet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MILJÖ / RUM -->
+  <section class="section section-rooms" id="miljo">
+    <div class="container">
+      <div class="section-badge">&#127968; Våra rum</div>
+      <h2>En inspirerande miljö för alla sinnen</h2>
+      <div class="rooms-grid">
+        <div class="room-card">
+          <div class="room-img-placeholder">
+            <span>&#127858;</span>
+          </div>
+          <h3>Matsalen</h3>
+          <p>Näringsrik, hemlagad och ekologisk mat serveras här varje dag.</p>
+        </div>
+        <div class="room-card">
+          <div class="room-img-placeholder">
+            <span>&#128218;</span>
+          </div>
+          <h3>Snusa &amp; Dåsan</h3>
+          <p>Ett mysigt rum för avkoppling, sagor och lugna stunder.</p>
+        </div>
+        <div class="room-card">
+          <div class="room-img-placeholder">
+            <span>&#127922;</span>
+          </div>
+          <h3>Lekan</h3>
+          <p>Vårt största rum – här får fantasin flöda i fri lek.</p>
+        </div>
+        <div class="room-card">
+          <div class="room-img-placeholder">
+            <span>&#127912;</span>
+          </div>
+          <h3>Ateljén</h3>
+          <p>Kreativt skapande med färg, lera, papper och mycket mer.</p>
+        </div>
+        <div class="room-card">
+          <div class="room-img-placeholder">
+            <span>&#128295;</span>
+          </div>
+          <h3>Byggis</h3>
+          <p>Lilla och Stora Byggis – här bygger och snickrar vi.</p>
+        </div>
+        <div class="room-card">
+          <div class="room-img-placeholder">
+            <span>&#128171;</span>
+          </div>
+          <h3>Temarummet</h3>
+          <p>Ett rum som förändras med våra pågående projekt och teman.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERI -->
+  <section class="section section-gallery" id="galleri">
+    <div class="container">
+      <div class="section-badge">&#128247; Galleri</div>
+      <h2>Bilder från vår vardag</h2>
+      <p class="section-desc">Här kan du se hur det ser ut hos oss! Byt ut bilderna nedan mot era egna foton.</p>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item-wide">
+          <div class="gallery-placeholder">
+            <span>&#127797;</span>
+            <small>Bild 1 – Ersätt med ert foto</small>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span>&#127774;</span>
+            <small>Bild 2</small>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span>&#127800;</span>
+            <small>Bild 3</small>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <span>&#127803;</span>
+            <small>Bild 4</small>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item-wide">
+          <div class="gallery-placeholder">
+            <span>&#127796;</span>
+            <small>Bild 5 – Ersätt med ert foto</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KÖANMÄLAN CTA -->
+  <section class="section section-cta">
+    <div class="container cta-inner">
+      <h2>Vill du att ditt barn ska gå hos oss?</h2>
+      <p>Vi tar emot barn från 1 års ålder. Ställ ert barn i kö redan idag!</p>
+      <a href="https://www.vildavaster.se/Koanmalan.aspx" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Köanmälan</a>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section class="section section-contact" id="kontakt">
+    <div class="container">
+      <div class="section-badge">&#128140; Kontakt</div>
+      <h2>Hör av dig till oss</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon">&#128205;</div>
+          <h3>Adress</h3>
+          <p>Fridhemstorget<br>217 53 Malmö</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">&#128222;</div>
+          <h3>Telefon</h3>
+          <p><a href="tel:040982415">040-98 24 15</a></p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">&#9993;</div>
+          <h3>E-post</h3>
+          <p><a href="mailto:info@vildavaster.se">info@vildavaster.se</a></p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">&#128100;</div>
+          <h3>Förskolechef</h3>
+          <p>Maria Nilegård</p>
+        </div>
+      </div>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2254.5!2d13.0!3d55.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sFridhemstorget%2C+Malm%C3%B6!5e0!3m2!1ssv!2sse!4v1"
+          width="100%" height="300" style="border:0; border-radius: 1rem;" allowfullscreen="" loading="lazy"
+          title="Karta till Vilda Väster förskola">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">&#127797;</span>
+        <span class="logo-text">Vilda Väster</span>
+        <p>Föräldrakooperativ förskola sedan 1992</p>
+      </div>
+      <div class="footer-links">
+        <a href="#hem">Hem</a>
+        <a href="#forskolan">Förskolan</a>
+        <a href="#veckoschema">Veckoschema</a>
+        <a href="#miljo">Miljö</a>
+        <a href="#galleri">Galleri</a>
+        <a href="#kontakt">Kontakt</a>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Förskolan Vilda Väster, Ek. Förening. Alla rättigheter förbehållna.</p>
+        <a href="https://www.vildavaster.se/personuppgiftspolicy.pdf" target="_blank" rel="noopener">Personuppgiftspolicy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const toggle = document.getElementById('menuToggle');
+    const nav = document.getElementById('mainNav');
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('open');
+      toggle.classList.toggle('active');
+    });
+    // Close menu on link click
+    nav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        nav.classList.remove('open');
+        toggle.classList.remove('active');
+      });
+    });
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  </script>
+
+</body>
+</html>
