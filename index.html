@@ -217,33 +217,187 @@
     <div class="container">
       <div class="section-badge">Galleri</div>
       <h2>Bilder från vår vardag</h2>
-      <p class="section-desc">Här kan du se hur det ser ut hos oss! Byt ut bilderna nedan mot era egna foton.</p>
-      <div class="gallery-grid">
-        <div class="gallery-item gallery-item-wide">
-          <div class="gallery-placeholder">
-            <small>Bild 1 – Ersätt med ert foto</small>
+      <div class="gallery-new">
+
+        <!-- MELLO – bildspel -->
+        <div class="gallery-card">
+          <div class="slideshow" id="mello">
+            <div class="slide active"><img src="img/galleri/mello1.png" alt="Melodifestivalen"></div>
+            <div class="slide"><img src="img/galleri/mello2.png" alt="Melodifestivalen"></div>
+            <div class="slide"><img src="img/galleri/mello3.png" alt="Melodifestivalen"></div>
+            <button class="slide-btn prev" onclick="moveSlide('mello', -1)">&#8249;</button>
+            <button class="slide-btn next" onclick="moveSlide('mello', 1)">&#8250;</button>
+            <div class="slide-dots" id="mello-dots"></div>
+          </div>
+          <div class="gallery-caption">
+            <h3>Melodifestivalen på Vilda Väster</h3>
+            <p>Melodifestivalen är alltid ett stort och glädjefyllt event hos oss! Barnen klädde ut sig i glitter och färg, dansade och sjöng inför en hejig publik av kompisar och pedagoger. Varje barn fick rösta på sin favorit och spänningen var på topp när resultatet räknades. Ett fantastiskt tillfälle att fira musik, gemenskap och barnens naturliga lust att framträda.</p>
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="gallery-placeholder">
-            <small>Bild 2</small>
+
+        <!-- EID – bildspel -->
+        <div class="gallery-card">
+          <div class="slideshow" id="eid">
+            <div class="slide active"><img src="img/galleri/eid1.png" alt="Eid"></div>
+            <div class="slide"><img src="img/galleri/eid2.png" alt="Eid"></div>
+            <div class="slide"><img src="img/galleri/eid3.png" alt="Eid"></div>
+            <button class="slide-btn prev" onclick="moveSlide('eid', -1)">&#8249;</button>
+            <button class="slide-btn next" onclick="moveSlide('eid', 1)">&#8250;</button>
+            <div class="slide-dots" id="eid-dots"></div>
+          </div>
+          <div class="gallery-caption">
+            <h3>Eid – gemenskap och firande</h3>
+            <p>Vi firade Eid tillsammans och det blev en varm och minnesvärd stund för alla. Barnen lärde sig om högtiden, skapade egna dekorationer och vi delade en gemensam festmåltid. På Vilda Väster värnar vi om mångfald och ser varje kultur som en berikande del av vår gemenskap. Att fira varandras högtider skapar förståelse, respekt och vänskap som bär hela livet.</p>
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="gallery-placeholder">
-            <small>Bild 3</small>
+
+        <!-- PÅSK – bildspel -->
+        <div class="gallery-card">
+          <div class="slideshow" id="pask">
+            <div class="slide active"><img src="img/galleri/pask1.png" alt="Påsk"></div>
+            <div class="slide"><img src="img/galleri/pask2.png" alt="Påsk"></div>
+            <div class="slide"><img src="img/galleri/pask3.png" alt="Påsk"></div>
+            <div class="slide"><img src="img/galleri/pask4.png" alt="Påsk"></div>
+            <button class="slide-btn prev" onclick="moveSlide('pask', -1)">&#8249;</button>
+            <button class="slide-btn next" onclick="moveSlide('pask', 1)">&#8250;</button>
+            <div class="slide-dots" id="pask-dots"></div>
+          </div>
+          <div class="gallery-caption">
+            <h3>Påskfirande med glädje och pyssel</h3>
+            <p>Påsken firas med stor entusiasm på Vilda Väster! Vi pysslar påskdekorationer av ägg, fjädrar och glitter, jagar påskägg gömda runt om i lokalerna och trädgården, och lagar traditionell påskmat i köket. Barnen klär ut sig till påskkäringar och häxor och går runt i kvarteret. Högtiden blir ett härligt tillfälle att prata om svenska traditioner och årstidernas växlingar.</p>
           </div>
         </div>
-        <div class="gallery-item">
-          <div class="gallery-placeholder">
-            <small>Bild 4</small>
+
+        <!-- VALENTINES – bildspel -->
+        <div class="gallery-card">
+          <div class="slideshow" id="valentines">
+            <div class="slide active"><img src="img/galleri/valentines1.png" alt="Alla hjärtans dag"></div>
+            <div class="slide"><img src="img/galleri/valentines2.png" alt="Alla hjärtans dag"></div>
+            <div class="slide"><img src="img/galleri/valentines3.png" alt="Alla hjärtans dag"></div>
+            <button class="slide-btn prev" onclick="moveSlide('valentines', -1)">&#8249;</button>
+            <button class="slide-btn next" onclick="moveSlide('valentines', 1)">&#8250;</button>
+            <div class="slide-dots" id="valentines-dots"></div>
+          </div>
+          <div class="gallery-caption">
+            <h3>Alla hjärtans dag – kärleksfulla skapelser</h3>
+            <p>På Alla hjärtans dag skapade barnen egna kärlekskort, hjärtmobiler och dekorationer till sina allra käraste – med färgglada färger, klistermärken och massor av hjärtan. Det är ett fint tillfälle att prata om vänskap och kärlek i alla dess former. Barnen strålde av stolthet när de fick ta hem sina alster och ge dem till mamma, pappa, syskon eller en god vän.</p>
           </div>
         </div>
-        <div class="gallery-item gallery-item-wide">
-          <div class="gallery-placeholder">
-            <small>Bild 5 – Ersätt med ert foto</small>
+
+        <!-- OS – bildspel -->
+        <div class="gallery-card">
+          <div class="slideshow" id="os">
+            <div class="slide active"><img src="img/galleri/os1.png" alt="OS-lekar"></div>
+            <div class="slide"><img src="img/galleri/os2.png" alt="OS-lekar"></div>
+            <button class="slide-btn prev" onclick="moveSlide('os', -1)">&#8249;</button>
+            <button class="slide-btn next" onclick="moveSlide('os', 1)">&#8250;</button>
+            <div class="slide-dots" id="os-dots"></div>
+          </div>
+          <div class="gallery-caption">
+            <h3>Vilda Väster-OS – våra egna olympiska lekar</h3>
+            <p>Under OS-perioden arrangerade vi våra alldeles egna olympiska lekar på förskolan! Med löpning, hopp, balansövningar och lagkapper tävlade barnen med hjärtat på rätt ställe. Vi pratade om sportsmanship, att göra sitt bästa och att heja på varandra. Ceremonin med hemgjorda medaljer och viftande fanor var en av årets absoluta höjdpunkter – alla var vinnare!</p>
           </div>
         </div>
+
+        <!-- PYSSEL – bildspel -->
+        <div class="gallery-card">
+          <div class="slideshow" id="pyssel">
+            <div class="slide active"><img src="img/galleri/pyssel.png" alt="Pyssel"></div>
+            <div class="slide"><img src="img/galleri/pyssel1.png" alt="Pyssel"></div>
+            <div class="slide"><img src="img/galleri/pyssel2.png" alt="Pyssel"></div>
+            <div class="slide"><img src="img/galleri/pyssel3.png" alt="Pyssel"></div>
+            <button class="slide-btn prev" onclick="moveSlide('pyssel', -1)">&#8249;</button>
+            <button class="slide-btn next" onclick="moveSlide('pyssel', 1)">&#8250;</button>
+            <div class="slide-dots" id="pyssel-dots"></div>
+          </div>
+          <div class="gallery-caption">
+            <h3>Skapande och pyssel i ateljeén</h3>
+            <p>Skapande och pyssel är en djupt förankrad del av vår vardag på Vilda Väster. Med sax, lim, pärlor, färg, lera och återbruksmaterial får barnens fantasi flöda fritt i ateljeén. Vi arbetar utifrån varje barns egna idéer och intressen – det finns inga rätt eller fel, bara utforskande och glädje. Att skapa med händerna stärker finmotorik, koncentration och självförtroende.</p>
+          </div>
+        </div>
+
+        <!-- ENSKILDA BILDER -->
+        <div class="gallery-card">
+          <div class="gallery-single-img"><img src="img/galleri/lera.png" alt="Lera"></div>
+          <div class="gallery-caption">
+            <h3>Lera – ett material för alla sinnen</h3>
+            <p>Lera är ett magiskt material som engagerar alla sinnen på en och samma gång. I ateljeén knådar, rullar och formar barnen sina alster med djup koncentration och kreativitet. Det mjuka materialet inbjuder till experimenterande – vad händer om man trycker, klämmer eller rullar? Lera är också ett utmärkt verktyg för bearbetning av känslor och upplevelser.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <div class="gallery-single-img"><img src="img/galleri/samling.png" alt="Samlingstund"></div>
+          <div class="gallery-caption">
+            <h3>Samlingstunden – hjärtat i vår dag</h3>
+            <p>Samlingstunden är hjärtat i vår dag på Vilda Väster. Här möts vi som grupp, sjunger sånger, pratar om vad som händer i världen och planerar dagens aktiviteter tillsammans. Barnen lär sig lyssna på varandra, ta plats och uttrycka sina tankar och åsikter. Det är en stund av trygghet, gemenskap och demokrati i miniatyr – grunden för ett gott liv tillsammans.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <div class="gallery-single-img"><img src="img/galleri/utflykt.png" alt="Utflykt"></div>
+          <div class="gallery-caption">
+            <h3>Utflykter – världen är vårt klassrum</h3>
+            <p>Utflykter är en viktig del av vår pedagogik. Vi besöker Ribersborgsstranden som ligger bara fem minuters promenad bort, utforskar parker och skogar, och tar oss ibland längre med vår elcykel. Ute i naturen väcks barnens nyfikenhet på riktigt – de hittar insekter, samlar pinnar, studerar årstidernas förändringar och förstår att de är en del av något mycket större än sig själva.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <div class="gallery-single-img"><img src="img/galleri/tromme.png" alt="Trumma och musik"></div>
+          <div class="gallery-caption">
+            <h3>Musik och rytm – glädje i varje slag</h3>
+            <p>Musik och rytm genomsyrar verksamheten på Vilda Väster. Med trummor, rytminstrument, sång och dans uttrycker barnen sig kreativt och lär sig samspel och timing. Att spela musik tillsammans stärker barnens förmåga att lyssna, ta tur och skapa något gemensamt som är större än delarna. Det är också ett underbart sätt att bearbeta energi och känslor på ett positivt sätt.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <div class="gallery-single-img"><img src="img/galleri/lekplats.png" alt="Lekplats"></div>
+          <div class="gallery-caption">
+            <h3>Lekplatsen – rörelseglädje och äventyr</h3>
+            <p>Fridhemstorget och de omkringliggande lekplatserna är vår förlängda gård. Här utmanar barnen sin grovmotorik i klätterställningar, gungor och balansredskap, samarbetar i gemensamma lekar och hittar på egna äventyr. Fri lek utomhus är oerhört viktig för barnens fysiska och sociala utveckling – och det märks tydligt hur glada och livfulla barnen är när de får röra på sig.</p>
+          </div>
+        </div>
+
+
+        <div class="gallery-card">
+          <div class="gallery-single-img"><img src="img/galleri/tradgard.png" alt="Trädgård"></div>
+          <div class="gallery-caption">
+            <h3>Trädgård och natur – vi sår, vi skördar</h3>
+            <p>Trädgården och utomhusmiljön är ett fantastiskt levande klassrum. Vi planterar frön, vattnar, skördar och observerar naturens kretslopp från vår till höst. Barnen lär sig att mat inte bara finns i affären utan faktiskt kommer ur jorden – en insikt som väcker vördnad och ansvarskänsla. Att ta hand om levande växter tränar tålamod, omsorg och förståelse för naturens villkor.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <div class="gallery-single-img"><img src="img/galleri/bibblan.png" alt="Biblioteket"></div>
+          <div class="gallery-caption">
+            <h3>Biblioteksbesök – böckernas magiska värld</h3>
+            <p>Regelbundna biblioteksbesök är en älskad tradition på Vilda Väster. Bibliotekets värld öppnar sig med tusentals berättelser, bilder och äventyr – och barnen väljer själva sina favoritböcker att låna hem. Att tidigt skapa en positiv relation till böcker och läsning är en av de viktigaste gåvorna vi kan ge ett barn. Biblioteket är demokrati, fantasi och kunskap – allt på ett ställe.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <div class="gallery-single-img"><img src="img/galleri/bok.png" alt="Högläsning"></div>
+          <div class="gallery-caption">
+            <h3>Högläsning – berättelsernas kraft</h3>
+            <p>Högläsning är en daglig ritual som vi på Vilda Väster värnar om av hjärtat. Att tillsammans dyka ner i en berättelse skapar ro, gemenskap och stimulerar barnens språkutveckling och fantasi på ett djupgående sätt. Barnen ställer frågor, diskuterar karaktärerna och lever sig in i handlingen. Böcker öppnar dörrar till världar och perspektiv som vidgar barnens horisont långt bortom förskolegården.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <div class="gallery-single-img"><img src="img/galleri/fettisdagen.png" alt="Fettisdagen"></div>
+          <div class="gallery-caption">
+            <h3>Fettisdagen – semlor och svenska traditioner</h3>
+            <p>Fettisdagen firas med nybakade semlor, kramiga kläder och glatt sorl i matsalen! Det är en festlig dag där vi pratar om svenska traditioner och varför vi firar denna älskade högtid. Barnen lär sig om historien bakom semlans resa från fastedagen till veckans höjdpunkt. Att dela en gemensam måltid och uppleva traditioner stärker den kulturella identiteten och sammanhållningen i gruppen.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <div class="gallery-single-img"><img src="img/galleri/parla.png" alt="Pärlor"></div>
+          <div class="gallery-caption">
+            <h3>Pärlpyssel – tålamod och finmotorik</h3>
+            <p>Pärlpyssel kräver tålamod, finmotorik och kreativt tänkande – och är ett av barnens absoluta favoriter i ateljeén. Barnen skapar egna mönster och motiv med pärlor i alla regnbågens färger och är stolta som påfåglar när de visar upp sina färdiga verk. Aktiviteten stärker koncentrationsförmågan och är ett utmärkt sätt att öva hand-öga-koordination på ett roligt och meningsfullt sätt.</p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -352,6 +506,36 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    // Slideshow
+    const slideshows = {};
+    document.querySelectorAll('.slideshow').forEach(ss => {
+      const id = ss.id;
+      const slides = ss.querySelectorAll('.slide');
+      const dotsContainer = ss.querySelector('.slide-dots');
+      slideshows[id] = { current: 0, slides };
+      slides.forEach((_, i) => {
+        const dot = document.createElement('span');
+        dot.className = 'dot' + (i === 0 ? ' active' : '');
+        dot.onclick = () => goToSlide(id, i);
+        dotsContainer.appendChild(dot);
+      });
+    });
+
+    function goToSlide(id, n) {
+      const ss = slideshows[id];
+      ss.slides[ss.current].classList.remove('active');
+      document.querySelectorAll(`#${id}-dots .dot`)[ss.current].classList.remove('active');
+      ss.current = (n + ss.slides.length) % ss.slides.length;
+      ss.slides[ss.current].classList.add('active');
+      document.querySelectorAll(`#${id}-dots .dot`)[ss.current].classList.add('active');
+    }
+
+    function moveSlide(id, dir) {
+      goToSlide(id, slideshows[id].current + dir);
+    }
+  </script>
 
   <script>
     // Mobile menu toggle
